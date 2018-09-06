@@ -29,7 +29,7 @@ _**Note:** This page will continue to be developed as the Hack Session approache
 
 
 
-# >> Modeling Complex Events: General <<
+#   Modeling Complex Events: General  
 
 * * *
 
@@ -183,11 +183,11 @@ The pyLIMA team will provide the requirements.
 
 
 
-# >> Modeling Complex Events: Triple Lenses <<
+#   Modeling Complex Events: Triple Lenses  
 
 * * *
 
-## Overview
+## Triple Lenses: Overview
 
 Triple lenses are an unsolved problem in microlensing of incredible
 scientific interest. These are systems consisting of three bodies,
@@ -284,7 +284,7 @@ at least release it to participants. These are:
 
 
 
-# >> Open Science Questions <<
+# Open Science Questions
 
 * * *
 
@@ -301,7 +301,7 @@ at least release it to participants. These are:
 
 
 
-# >> Developing Tools <<
+# Developing Tools  
 
 * * *
 
@@ -395,7 +395,7 @@ solutions to binary microlensing events.
 
 <br>
 
-## Create a Galaxy Zoo-type project for UKIRT data
+## Galaxy Zoo-type project for UKIRT data
 
 **Lead:**
 TBD
