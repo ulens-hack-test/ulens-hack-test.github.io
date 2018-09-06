@@ -1,3 +1,9 @@
+{% if include.link == 'Link 1' %}
+F
+{% else %}
+B
+{% endif %}
+
 {% capture before %}{{ include.link[1] | split: "://" | first }}{% endcapture %}
 {% capture after %}{{ include.link[1] | split: "://" | last }}{% endcapture %}
 {% assign internal = true %}
@@ -11,12 +17,6 @@
   {% capture linkurl %}{{ site.baseurl }}/{{ include.link[1] }}{% endcapture %}
 {% else %}
   {% capture linkurl %}{{ include.link[1] }}{% endcapture %}
-{% endif %}
-
-{% if include.link contains 'Link 1' %}
-FOO
-{% else %}
-BAR
 {% endif %}
 
 {% if include.link[0] contains 'Link' %}
