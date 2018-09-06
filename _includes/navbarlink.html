@@ -13,8 +13,10 @@
   {% capture linkurl %}{{ include.link[1] }}{% endcapture %}
 {% endif %}
 
-{% if include.link contains 'triple' %}
+{% if include.link contains 'Link 1' %}
 FOO
+{% else %}
+BAR
 {% endif %}
 
 {% if include.link[0] contains 'Link' %}
