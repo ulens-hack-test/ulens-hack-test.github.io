@@ -23,14 +23,17 @@
             <div class="navlinks-children">
               {% for childlink in link[1] %}
                 {% for linkparts in childlink %}
-                  {% include navbarlink.html link=linkparts bold=true %}
+		  {% if 'g' in linkparts %}
+                    {% include navbarlink.html link=linkparts bold=true %}
+		  {% else %}
+		    {% include navbarlink.html link=linkparts bold=false %}
                 {% endfor %}
               {% endfor %}
             </div>
           </li>
         {% else %}
           <li>
-            {% include navbarlink.html link=link bold=true %}
+            {% include navbarlink.html link=link %}
           </li>
         {% endif %}
         {% endfor %}
