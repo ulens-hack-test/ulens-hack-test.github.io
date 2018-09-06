@@ -13,7 +13,11 @@
   {% capture linkurl %}{{ include.link[1] }}{% endcapture %}
 {% endif %}
 
-{% if include.link[0] contains 'Link 1' %}
+{% if include.link contains 'triple' %}
+FOO
+{% endif %}
+
+{% if include.link[0] contains 'Link' %}
   <a href="{{ linkurl }}" style="font-weight: bold;">{{ include.link[0] }}</a>
 {% else %}
   <a href="{{ linkurl }}">{{ include.link[0] }}</a>
