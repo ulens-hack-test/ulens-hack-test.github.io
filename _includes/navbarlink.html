@@ -1,4 +1,6 @@
-{% capture fmt %}{% if include.link[0] contains 'Link' %}"font-weight: bold;"{% else %}""{% endif %}{% endcapture%}
+{% capture fmt %}{% if include.link[0] contains 'Link' %}font-weight: bold;{% else %}{% endif %}{% endcapture%}
+
+{{ fmt }}
 
 {% capture before %}{{ include.link[1] | split: "://" | first }}{% endcapture %}
 {% capture after %}{{ include.link[1] | split: "://" | last }}{% endcapture %}
@@ -15,4 +17,4 @@
   {% capture linkurl %}{{ include.link[1] }}{% endcapture %}
 {% endif %}
 
-<a href="{{ linkurl }}" style={{ fmt }}>{{ include.link[0] }}</a>
+<a href="{{ linkurl }}" style="{{ fmt }}">{{ include.link[0] }}</a>
