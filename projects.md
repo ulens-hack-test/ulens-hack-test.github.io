@@ -6,8 +6,6 @@ permalink: /projects/
 
 _This page will continue to be developed as the Hack Session approaches_
 
-# Project Ideas
-
 A sample of project ideas for the Hack Session. These are meant to be
 representative of the _types_ of problems people might be interested
 in working on and to help organize ideas about any leg-work that might
@@ -21,16 +19,13 @@ own project.
 
 ## Solving Unsolved Events
 
-#### Lead
-Radek Poleski
+**Lead:** Radek Poleski
 
-#### Goal
-One of the science projects for Microlensing Hack Session could
+**Goal:** One of the science projects for Microlensing Hack Session could
 be re-analysis of the events for which proper microlensing model was
 not found yet.
 
-#### Description
-For example, one of the binary microlensing events detected by Gaia, i.e.,
+**Description:** For example, one of the binary microlensing events detected by Gaia, i.e.,
 Gaia16aye has very complicated light curve
 ([Wyrzykowski et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.465L.114W)).
 It shows four caustic crossings and two cusp approaches. The model
@@ -48,7 +43,7 @@ few simplifications. These are:
 - **OGLE-2005-BLG-331** (Skowron et al. 2007),
 - **OGLE-2007-BLG-327** (Jaroszynski et al. 2010).
 
-#### Outstanding Issues
+**Outstanding Issues:**
 - Obtaining data for these events
 
 * * *
