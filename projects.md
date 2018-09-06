@@ -10,6 +10,9 @@ p {
   margin-bottom: 0.5em;
   text-align: justify;
 }
+h1 {
+    text-align: center;
+}
 </style>
 
 A sample of project ideas for the Hack Session. These are meant to be
@@ -23,7 +26,10 @@ _**Note:** This page will continue to be developed as the Hack Session approache
 
 <br>
 
-# >> Modeling Complex Events: General
+
+
+
+# >> Modeling Complex Events: General <<
 
 * * *
 
@@ -56,7 +62,7 @@ few simplifications. These are:
 **Outstanding Issues:**
 - Obtaining data for these events
 
-* * *
+<br>
 
 ## Weighting Degenerate Solutions
 
@@ -111,7 +117,7 @@ hierarchical bayesian algorithm, nested sampling or ...?
 - Bennett+2008 (2008ApJ...684..663B)
 - Poleski+2018 (2018arXiv180500049P)
 
-* * *
+<br>
 
 ## Binary Lens Events in UKIRT and KMTNet
 
@@ -145,7 +151,7 @@ from parallax effects.
 - Need a MulensModel and/or pyLIMA notebook for fitting
 - Might also need a data server and/or a way to quickly view many light curves.
 
-* * *
+<br>
 
 ## Alternative algorithms for microlensing modeling
 
@@ -174,9 +180,12 @@ investigate his own approach.
 
 The pyLIMA team will provide the requirements.
 
-* * *
 
-# Modeling Complex Events: Triple Lenses
+
+
+# >> Modeling Complex Events: Triple Lenses <<
+
+* * *
 
 ## Overview
 
@@ -218,7 +227,7 @@ known.
 
 Thus, there are two distinct problems to work on.
 
-* * *
+<br>
 
 ## Triple Lenses: Calculating the Magnification
 
@@ -233,7 +242,7 @@ down the code significantly. More efficient polynomial solvers or
 coordinate transformation that can avoid the need for quadruple
 precision could really help.
 
-* * *
+<br>
 
 ## Triple Lenses: Finding All Relevant Solutions
 
@@ -272,9 +281,12 @@ at least release it to participants. These are:
   - Some are published but not (yet) on the Archive
   - Some are proprietary --> Need publication agreement
 
-* * *
 
-# Open Science Questions
+
+
+# >> Open Science Questions <<
+
+* * *
 
 **Science Questions:**
 - Where is the snow line?
@@ -286,7 +298,10 @@ at least release it to participants. These are:
 - How do microlensing planet populations compare with those inferred
   (or to be inferred) with TESS or Gaia?
 
-# Developing Tools
+
+
+
+# >> Developing Tools <<
 
 * * *
 
@@ -320,7 +335,7 @@ regions of those images.
 - The description needs to be written and revised by Radek.
 - We can't do both this and the Magnification Map because both require Radek.
 
-* * *
+<br>
 
 ## Map-making code
 
@@ -367,7 +382,7 @@ size of the source.
 - Do we write some kind of checker for numerical accuracy?
 - How much of the use cases need to be done *before* the Hack Session?
 
-* * *
+<br>
 
 ## Jupyter Binary Fitting
 
@@ -378,7 +393,7 @@ solutions to binary microlensing events.
 **Notes:**
 - Maybe one for identifying point lenses that need more parameters?
 
-* * *
+<br>
 
 ## Create a Galaxy Zoo-type project for UKIRT data
 
