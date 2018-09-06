@@ -4,14 +4,16 @@ title: Projects
 permalink: /projects/
 ---
 
-_This page will continue to be developed as the Hack Session approaches_
-
 A sample of project ideas for the Hack Session. These are meant to be
 representative of the _types_ of problems people might be interested
 in working on and to help organize ideas about any leg-work that might
 be necessary prior to the Hack Session. Projects will be pitched at
 the Hack Session. Feel free to draw from this list or to pitch your
 own project.
+
+_**Note:** This page will continue to be developed as the Hack Session approaches_
+
+<br>
 
 # Modeling Complex Events: General
 
