@@ -22,22 +22,22 @@ _**Note:** This page will continue to be developed as the Hack Session approache
 ## Solving Unsolved Events
 
 **Lead:** Radek Poleski Test
-<br><br>
+<br style="line-height:0px;" />
 **Goal:** One of the science projects for Microlensing Hack Session could
 be re-analysis of the events for which proper microlensing model was
 not found yet.
-<br>
+<br style="line-height:4px;" />
 **Description:** For example, one of the binary microlensing events detected by Gaia, i.e.,
 Gaia16aye has very complicated light curve
 ([Wyrzykowski et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.465L.114W)).
 It shows four caustic crossings and two cusp approaches. The model
 that well explains all these features has not yet been found.
-<br>
+<br style="line-height:8px;" />
 I think Dave Bennett has additional data for ob04367=mb04033. This event
 was already published with OGLE data only
 ([Jaroszynski et al. 2006](http://adsabs.harvard.edu/abs/2006AcA....56..307J))
  and additional data suggest 2S2L or 1S3L model.
-<br>
+<br style="line-height:20px;" />
 In addition, there are a few events for which published models do not
 fully explain the observed light curves, but the models fitted had a
 few simplifications. These are:
