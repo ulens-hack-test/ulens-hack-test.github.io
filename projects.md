@@ -11,7 +11,7 @@ be necessary prior to the Hack Session. Projects will be pitched at
 the Hack Session. Feel free to draw from this list or to pitch your
 own project.
 
-_**Note:** This page will continue to be developed as the Hack Session approaches_
+_**Note:** This page will continue to be developed as the Hack Session approaches._
 
 <br>
 
@@ -22,29 +22,29 @@ _**Note:** This page will continue to be developed as the Hack Session approache
 ## Solving Unsolved Events
 
 **Lead:** Radek Poleski
-
+<br>
 **Goal:** One of the science projects for Microlensing Hack Session could
 be re-analysis of the events for which proper microlensing model was
 not found yet.
-
+<br>
 **Description:** For example, one of the binary microlensing events detected by Gaia, i.e.,
 Gaia16aye has very complicated light curve
 ([Wyrzykowski et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.465L.114W)).
 It shows four caustic crossings and two cusp approaches. The model
 that well explains all these features has not yet been found.
-
+<br>
 I think Dave Bennett has additional data for ob04367=mb04033. This event
 was already published with OGLE data only
 ([Jaroszynski et al. 2006](http://adsabs.harvard.edu/abs/2006AcA....56..307J))
  and additional data suggest 2S2L or 1S3L model.
-
+<br>
 In addition, there are a few events for which published models do not
 fully explain the observed light curves, but the models fitted had a
 few simplifications. These are:
 - **OGLE-2003-BLG-220** = **OGLE-1999-BLG-42** (Skowron et al. 2009),
 - **OGLE-2005-BLG-331** (Skowron et al. 2007),
 - **OGLE-2007-BLG-327** (Jaroszynski et al. 2010).
-
+<br>
 **Outstanding Issues:**
 - Obtaining data for these events
 

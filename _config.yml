@@ -23,12 +23,12 @@ description: Webpage for the CCA Microlensing Hack Week, January 2019
 
 # List of links in the navigation bar
 navbar-links:
-  Projects:
+  Project Ideas:
     - Unsolved events: "projects#solving-unsolved-events"
     - Degenerate solutions: "projects#weighting-degenerate-solutions"
     - Binary events: "projects#binary-lens-events-in-ukirt-and-kmtnet"
     - Alternative algorithms: "projects#alternative-algorithms-for-microlensing-modeling"
-  Logistics:
+  Meeting Logistics:
     - General: "logistics"
     - Schedule: "schedule"
     - Collaboration guidelines: "collaboration"
