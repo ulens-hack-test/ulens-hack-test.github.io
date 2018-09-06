@@ -24,6 +24,7 @@ description: Webpage for the CCA Microlensing Hack Week, January 2019
 # List of links in the navigation bar
 navbar-links:
   Projects: "projects"
+    - Solving Unsolved Events: "/projects#solving-unsolved-events"
   Schedule: "schedule"
   Logistics:
     - General: "logistics"
