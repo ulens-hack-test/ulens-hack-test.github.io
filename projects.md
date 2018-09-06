@@ -7,12 +7,19 @@ permalink: /projects/
 <style>
 p {
   margin-top: 0.2em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
   text-align: justify;
+}
+h1 {
+    text-shadow:
+		-1px -1px 0 #444,
+		1px -1px 0 #444,
+		-1px 1px 0 #444,
+		1px 1px 0 #444;
 }
 </style>
 
-TEST A sample of project ideas for the Hack Session. These are meant to be
+A sample of project ideas for the Hack Session. These are meant to be
 representative of the _types_ of problems people might be interested
 in working on and to help organize ideas about any leg-work that might
 be necessary prior to the Hack Session. Projects will be pitched at
