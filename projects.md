@@ -4,7 +4,14 @@ title: Projects
 permalink: /projects/
 ---
 
-A sample of project ideas for the Hack Session. These are meant to be
+<style>
+p {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+</style>
+
+TEST A sample of project ideas for the Hack Session. These are meant to be
 representative of the _types_ of problems people might be interested
 in working on and to help organize ideas about any leg-work that might
 be necessary prior to the Hack Session. Projects will be pitched at
@@ -41,7 +48,6 @@ was already published with OGLE data only
 In addition, there are a few events for which published models do not
 fully explain the observed light curves, but the models fitted had a
 few simplifications. These are:
-
 - **OGLE-2003-BLG-220** = **OGLE-1999-BLG-42** (Skowron et al. 2009),
 - **OGLE-2005-BLG-331** (Skowron et al. 2007),
 - **OGLE-2007-BLG-327** (Jaroszynski et al. 2010).
@@ -56,7 +62,6 @@ few simplifications. These are:
 **Lead:** Clement Ranc, David Bennett and volunteers?
 
 **Suggested Goals:**
-
 1. Sampling the posterior distribution for a microlensing event
    that have several degenerate solutions.
 2. Comparing the marginal distribution on few given parameters
@@ -79,7 +84,6 @@ Optimized algorithms that might be tested: hamiltonian MCMC, a
 hierarchical bayesian algorithm, nested sampling or ...?
 
 **Requirements:**
-
 - Public code(s) to generate binary-lens microlensing light curves
   (pyLIMA, MulensModel, muLAn).
 - Posterior distribution from an already published paper, or for any
@@ -90,12 +94,10 @@ hierarchical bayesian algorithm, nested sampling or ...?
 - Optimized MCMC algorithms available and already tested on these events.
 
 **Outstanding Issues:**
-
 - Use and test of optimized MCMC algorithms.
 - Modeling of not already published data.
 
 **(Suggested) Homework:**
-
 - Microlensing friends come with a working code that compute light
   curves for a given set of parameters.
 - Statistics friends come with codes that explore high-dimensional
@@ -105,7 +107,6 @@ hierarchical bayesian algorithm, nested sampling or ...?
   events).
 
 **References:**
-
 - Bennett+2008 (2008ApJ...684..663B)
 - Poleski+2018 (2018arXiv180500049P)
 
@@ -113,14 +114,14 @@ hierarchical bayesian algorithm, nested sampling or ...?
 
 ## Binary Lens Events in UKIRT and KMTNet
 
-#### Leads
+**Leads:**
 Yossi Shvartzvald, Geoff Bryden, Valerio Bozza
 
-#### Goal
+**Goal:**
 Identify and solve binary microlensing events in the public
 UKIRT and KMTNet datasets.
 
-#### Description
+**Description:**
 Recently, there have been two major releases of microlensing survey
 data: UKIRT and KMTNet. These datasets are rich and contain many
 unpublished microlensing events, including some two-body events. The
@@ -132,11 +133,11 @@ This project could also be more focused: identify candidate events in
 specific categories, e.g. brown dwarf companions, mass measurements
 from parallax effects.
 
-#### Outline of Work:
+**Outline of Work:**
 1. Identify interesting events
 2. Fit them
 
-#### Outstanding Issues:
+**Outstanding Issues:**
 - Someone needs to compile a list of published events.
 - Modeling events requires significant computer resources.
 - Are we doing "by-eye" identification or using an algorithm?
@@ -147,16 +148,16 @@ from parallax effects.
 
 ## Alternative algorithms for microlensing modeling
 
-#### Lead
+**Leads:**
 Etienne Bachelet and friends
 
-#### Goals
+**Goals:**
 1. Review of alternative algorithms to find solutions : genetic
 algorithms, template matching
 2. Exploring new ways to find solutions efficiently and reliably :
 machine learning, nested sampling, hamiltonian MCMC....
 
-#### Description
+**Description:**
 While the standard grid method is extremely intensive in terms of CPU
 and already show some weaknesses to find the global minima, it exists
 alternative that appear competitive. The goal of this project is to
@@ -165,7 +166,7 @@ algorithms. A tutorial notebook will be given to easily provide
 magnification functions and assimilate. Then, anyone would be able to
 investigate his own approach.
 
-#### Requirements
+**Requirements:**
 - Public code(s) to generate binary-lens microlensing light curves
 (pyLIMA, MulensModel, muLAn).
 - Simulated sample of WFIRST-like lightcurves
@@ -220,7 +221,7 @@ Thus, there are two distinct problems to work on.
 
 ## Triple Lenses: Calculating the Magnification
 
-#### Goal
+**Goal:**
 Discuss numerical methods to robustly solve the three-body lens
 equation.
 
@@ -235,13 +236,12 @@ precision could really help.
 
 ## Triple Lenses: Finding All Relevant Solutions
 
-#### Goal
-
+**Goal:**
 Discuss methods for efficiently and sufficiently searching parameter
 space for solutions to light curves created by 3 bodies (minimum of 9
 correlated parameters).
 
-#### Known Triple Lens Planets
+**Known Triple Lens Planets:**
 - ob06109:  1 star, 2 planet lenses, modeling easy
 - ob08270:  satisfactory solution not yet found. Likely 1 star, 1 plane, and 1 planet or star lens
 - ob07349:  circumbinary planet
@@ -260,12 +260,12 @@ at least release it to participants. These are:
 - ob07270: proprietary data from OGLE, uFUN, and PLANET
 - ob160613: proprietary data from MOA (other data is published).
 
-#### References
+**References:**
 - (http://adsabs.harvard.edu/abs/2015ApJ...806...63D)
 - (http://adsabs.harvard.edu/abs/2015ApJ...806...99D)
 - papers corresponding to the planets above
 
-#### Outstanding issues
+**Outstanding issues:**
 - Obtaining data for these events
   - Some are on the Exoplanet Archive
   - Some are published but not (yet) on the Archive
@@ -275,13 +275,13 @@ at least release it to participants. These are:
 
 # Open Science Questions
 
-## Science Questions
+**Science Questions:**
 - Where is the snow line?
 - What are the theoretical explanations for the planets we see?
 - What the theoretical expectations for what we should see?
 - Projecting known planet populations into WFIRST detection space.
 
-## Synergies with TESS, Gaia
+**Synergies with TESS and Gaia:**
 - How do microlensing planet populations compare with those inferred
   (or to be inferred) with TESS or Gaia?
 
@@ -291,14 +291,14 @@ at least release it to participants. These are:
 
 ## Ray-Shooting Algorithm
 
-#### Lead
+**Lead:**
 Radek Poleski
 
-#### Goal
+**Goal:**
 Write a module for _MulensModel_ to calculate the magnification
 using the ray-shooting method.
 
-#### Description
+**Description:**
 One difficulty in accurately calculating the magnification of a finite
 source is to locate all of the images, especially if one or more of
 them is small. Using the ray-shooting method, we know that if one
@@ -309,12 +309,12 @@ result in gains in efficiency and accuracy over other methods by
 identifying all of the images and only shooting rays densely in the
 regions of those images.
 
-#### Outline of Work
+**Outline of Work:**
 1. Write use cases.
 2. Write unit tests.
 3. Write module.
 
-#### Outstanding Issues
+**Outstanding Issues:**
 - All of the issues listed for the Magnification Map Project.
 - The description needs to be written and revised by Radek.
 - We can't do both this and the Magnification Map because both require Radek.
