@@ -21,7 +21,7 @@ _**Note:** This page will continue to be developed as the Hack Session approache
 
 ## Solving Unsolved Events
 
-**Lead:** Radek Poleski Test
+**Lead:** Radek Poleski
 <br style="line-height:40px;"/>
 **Goal:** One of the science projects for Microlensing Hack Session could
 be re-analysis of the events for which proper microlensing model was
