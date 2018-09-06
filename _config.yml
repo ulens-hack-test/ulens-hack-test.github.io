@@ -24,7 +24,7 @@ description: Webpage for the CCA Microlensing Hack Week, January 2019
 # List of links in the navigation bar
 navbar-links:
   Project Ideas:
-    - **Level 1**: "projects#"
+    - <emph>Level 1</emph>: "projects#"
     - Unsolved events: "projects#solving-unsolved-events"
     - Degenerate solutions: "projects#weighting-degenerate-solutions"
     - Binary events: "projects#binary-lens-events-in-ukirt-and-kmtnet"
