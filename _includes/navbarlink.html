@@ -1,7 +1,13 @@
-{% if "Foobar" contains "bar" %}
+{% if include.link[0] contains "Link" %}
 yes
 {% else %}
 no
+{% endif %}
+
+{% if {{ include.link[0] }} contains "Link" %}
+yes!
+{% else %}
+no!
 {% endif %}
 
 {% capture before %}{{ include.link[1] | split: "://" | first }}{% endcapture %}
