@@ -41,6 +41,7 @@ was already published with OGLE data only
 In addition, there are a few events for which published models do not
 fully explain the observed light curves, but the models fitted had a
 few simplifications. These are:
+
 - **OGLE-2003-BLG-220** = **OGLE-1999-BLG-42** (Skowron et al. 2009),
 - **OGLE-2005-BLG-331** (Skowron et al. 2007),
 - **OGLE-2007-BLG-327** (Jaroszynski et al. 2010).
