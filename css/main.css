@@ -230,6 +230,8 @@ img {
 }
 .navbar-custom .nav .navlinks-container .navlinks-children a {
   display: block;
+  text-transform: none;
+  font-size: 10px;
   padding: 10px;
   padding-left: 30px;
   background-color: {{ site.navbar-children-col }};
