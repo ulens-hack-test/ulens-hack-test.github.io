@@ -13,4 +13,8 @@
   {% capture linkurl %}{{ include.link[1] }}{% endcapture %}
 {% endif %}
 
-<a href="{{ linkurl }}">{{ include.link[0] }}</a>
+{% if include.bold %}
+  <a href="{{ linkurl }}"><span style="font-weight: bold;">{{ include.link[0] }}</span></a>
+{% else %}
+  <a href="{{ linkurl }}">{{ include.link[0] }}</a>
+{% endif %}
