@@ -10,13 +10,6 @@ p {
   margin-bottom: 0.5em;
   text-align: justify;
 }
-h1 {
-    text-shadow:
-		-1px -1px 0 #999999,
-		1px -1px 0 #999999,
-		-1px 1px 0 #999999,
-		1px 1px 0 #999999;
-}
 </style>
 
 A sample of project ideas for the Hack Session. These are meant to be
@@ -30,7 +23,7 @@ _**Note:** This page will continue to be developed as the Hack Session approache
 
 <br>
 
-# Modeling Complex Events: General
+# >> Modeling Complex Events: General
 
 * * *
 
