@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: page
 title: Projects
 permalink: /projects/
 ---
-
-[Home](https://ulens-hack.github.io/)|[Pages](/sitemap/)
 
 _This page will continue to be developed as the Hack Session approaches_
 
@@ -116,7 +114,7 @@ Poleski+2018 (2018arXiv180500049P)
 #### Leads
 Yossi Shvartzvald, Geoff Bryden, Valerio Bozza
 
-#### Goal 
+#### Goal
 Identify and solve binary microlensing events in the public
 UKIRT and KMTNet datasets.
 
@@ -250,7 +248,7 @@ correlated parameters).
 - ob130341: 2 stars, 1 planet - some ambiguity about whether the planet orbits 1 or 1 stars
 - ob141722: 1 star, 2 planets - modeling trivial
 - ob160613: multiple solutions - not all in the published paper, some are binary source, binary lens
-            MOA data covers 1st caustic crossing, but is not in paper. 
+            MOA data covers 1st caustic crossing, but is not in paper.
 
 Some of these have data available on the Exoplanet Archive.
 
@@ -276,7 +274,7 @@ at least release it to participants. These are:
 # Open Science Questions
 
 ## Science Questions
-- Where is the snow line? 
+- Where is the snow line?
 - What are the theoretical explanations for the planets we see?
 - What the theoretical expectations for what we should see?
 - Projecting known planet populations into WFIRST detection space.
