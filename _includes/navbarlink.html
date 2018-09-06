@@ -1,8 +1,4 @@
-{% if include.link == 'Link 1' %}
-F
-{% else %}
-B
-{% endif %}
+@{{ include.link }}@{{ include.link[0] }}@{{ include.link[1] }}@
 
 {% capture before %}{{ include.link[1] | split: "://" | first }}{% endcapture %}
 {% capture after %}{{ include.link[1] | split: "://" | last }}{% endcapture %}
