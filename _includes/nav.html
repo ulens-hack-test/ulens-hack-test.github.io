@@ -23,7 +23,7 @@
             <div class="navlinks-children">
               {% for childlink in link[1] %}
                 {% for linkparts in childlink %}
-                  {% include navbarlink.html link=linkparts %}
+                  {% include navbarlink.html link=linkparts bold=true %}
                 {% endfor %}
               {% endfor %}
             </div>
