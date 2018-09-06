@@ -13,7 +13,7 @@
   {% capture linkurl %}{{ include.link[1] }}{% endcapture %}
 {% endif %}
 
-include.link[0]
+@{{ include.link[0] }}@
 
 {% if include.link[0] == "Link 1" %}
   <a href="{{ linkurl }}" style="font-weight: bold;">{{ include.link[0] }}</a>
