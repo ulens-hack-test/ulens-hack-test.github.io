@@ -22,22 +22,22 @@ _**Note:** This page will continue to be developed as the Hack Session approache
 ## Solving Unsolved Events
 
 **Lead:** Radek Poleski
-<br style="line-height:40px;"/>
+
 **Goal:** One of the science projects for Microlensing Hack Session could
 be re-analysis of the events for which proper microlensing model was
 not found yet.
-<br style="line-height:40px;"/>
+
 **Description:** For example, one of the binary microlensing events detected by Gaia, i.e.,
 Gaia16aye has very complicated light curve
 ([Wyrzykowski et al. 2017](http://adsabs.harvard.edu/abs/2017MNRAS.465L.114W)).
 It shows four caustic crossings and two cusp approaches. The model
 that well explains all these features has not yet been found.
-<br style="line-height:40px;"/>
+
 I think Dave Bennett has additional data for ob04367=mb04033. This event
 was already published with OGLE data only
 ([Jaroszynski et al. 2006](http://adsabs.harvard.edu/abs/2006AcA....56..307J))
  and additional data suggest 2S2L or 1S3L model.
-<br style="line-height:40px;"/>
+
 In addition, there are a few events for which published models do not
 fully explain the observed light curves, but the models fitted had a
 few simplifications. These are:
@@ -46,7 +46,6 @@ few simplifications. These are:
 - **OGLE-2005-BLG-331** (Skowron et al. 2007),
 - **OGLE-2007-BLG-327** (Jaroszynski et al. 2010).
 
-<br style="line-height:40px;"/>
 **Outstanding Issues:**
 - Obtaining data for these events
 
@@ -54,17 +53,17 @@ few simplifications. These are:
 
 ## Weighting Degenerate Solutions
 
-#### Lead
-Clement Ranc, David Bennett and volunteers?
+**Lead:** Clement Ranc, David Bennett and volunteers?
 
-#### Suggested Goals
+**Suggested Goals:**
+
 1. Sampling the posterior distribution for a microlensing event
    that have several degenerate solutions.
 2. Comparing the marginal distribution on few given parameters
    derived from a regular Metropolis-Hastings algorithm with
    distributions derived from more optimized algorithms.
 
-#### Description
+**Description:**
 Most analyses presently do little more than weighting the solutions by
 the chi^2 to weighting degenerate microlensing model
 solutions. However, these degenerate binary lens solutions must be
@@ -79,7 +78,8 @@ methods to properly sample all the relevant chi^2 minima.
 Optimized algorithms that might be tested: hamiltonian MCMC, a
 hierarchical bayesian algorithm, nested sampling or ...?
 
-#### Requirements
+**Requirements:**
+
 - Public code(s) to generate binary-lens microlensing light curves
   (pyLIMA, MulensModel, muLAn).
 - Posterior distribution from an already published paper, or for any
@@ -89,11 +89,13 @@ hierarchical bayesian algorithm, nested sampling or ...?
   Sampling).
 - Optimized MCMC algorithms available and already tested on these events.
 
-#### Outstanding Issues
+**Outstanding Issues:**
+
 - Use and test of optimized MCMC algorithms.
 - Modeling of not already published data.
 
-#### (Suggested) Homework
+**(Suggested) Homework:**
+
 - Microlensing friends come with a working code that compute light
   curves for a given set of parameters.
 - Statistics friends come with codes that explore high-dimensional
@@ -102,9 +104,10 @@ hierarchical bayesian algorithm, nested sampling or ...?
   event they have chosen (might be from a short-list of chosen
   events).
 
-#### References
-Bennett+2008 (2008ApJ...684..663B)
-Poleski+2018 (2018arXiv180500049P)
+**References:**
+
+- Bennett+2008 (2008ApJ...684..663B)
+- Poleski+2018 (2018arXiv180500049P)
 
 * * *
 
