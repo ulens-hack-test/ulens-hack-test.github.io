@@ -13,6 +13,12 @@ p {
 h1 {
     text-align: center;
 }
+:target:before {
+    content:"";
+    display:block;
+    height:90px; /* fixed header height*/
+    margin:-90px 0 0; /* negative fixed header height */
+}
 </style>
 
 A sample of project ideas for the Hack Session. These are meant to be
