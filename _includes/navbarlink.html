@@ -1,4 +1,4 @@
-@{{ include.link }}@{{ include.link[0] }}@{{ include.link[1] }}@
+@{{ include.link[0] }}@{{ include.link[0] contains "Level" }}@
 
 {% capture before %}{{ include.link[1] | split: "://" | first }}{% endcapture %}
 {% capture after %}{{ include.link[1] | split: "://" | last }}{% endcapture %}
