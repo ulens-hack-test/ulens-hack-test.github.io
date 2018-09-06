@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Project Ideas
 permalink: /projects/
 ---
 
@@ -33,7 +33,7 @@ _**Note:** This page will continue to be developed as the Hack Session approache
 <br>
 
 
-
+* * *
 
 #   Modeling Complex Events: General  
 
@@ -187,7 +187,10 @@ investigate his own approach.
 The pyLIMA team will provide the requirements.
 
 
+<br>
 
+
+* * *
 
 #   Modeling Complex Events: Triple Lenses  
 
@@ -288,7 +291,10 @@ at least release it to participants. These are:
   - Some are proprietary --> Need publication agreement
 
 
+<br>
 
+
+* * *
 
 # Open Science Questions
 
@@ -305,7 +311,10 @@ at least release it to participants. These are:
   (or to be inferred) with TESS or Gaia?
 
 
+<br>
 
+
+* * *
 
 # Developing Tools  
 

@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: page
 title: Resources
 permalink: /resources/
 ---
 
-[Home](https://ulens-hack.github.io/)|[Pages](/sitemap/)
-
-_This page will continue to be developed as the Hack Session approaches_
+_**Note:** This page will continue to be developed as the Hack Session approaches._
 
 # Useful links
 - The [Google Docs sheet](https://docs.google.com/document/d/1XviE8EQrYmBAgbucmlsP6APogf0_PFCnKwmNvHMzMAg/edit#).
@@ -43,13 +41,15 @@ _This page will continue to be developed as the Hack Session approaches_
 
 
 ### Published events
+
 | Database Name | Alternate Name(s) | Publication |
-| --------------|-------------------|-------------|
-|  |  |  |
+|---------------|-------------------|-------------|
+|               |                   |             |
 
 ## KMTNet
 
 ### Published events
+
 | Database Name | Alternate Name(s) | Publication |
-| --------------|-------------------|-------------|
-|  |  |  |
+|---------------|-------------------|-------------|
+|               |                   |             |
