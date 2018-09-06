@@ -6,8 +6,9 @@ permalink: /projects/
 
 <style>
 p {
-  margin-top: 0em;
-  margin-bottom: 0em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  text-align: justify;
 }
 </style>
 
@@ -323,14 +324,14 @@ regions of those images.
 
 ## Map-making code
 
-#### Leads
+**Leads:**
 Radek Poleski and Jennifer Yee
 
-#### Goal
+**Goal:**
 Write a module to calculate the magnification of a binary
 lens using the map-making method.
 
-#### Description
+**Description:**
 Map-making is one method for numerically calculating the magnification
 of a finite source. This is essentially a Monte Carlo method in which
 ~10^7 light rays are "shot" from the image (lens = planet host star)
@@ -340,8 +341,7 @@ within the boundary of the source. Typical routines use a hexagonal
 grid on the source plane with many resolution elements relative to the
 size of the source.
 
-#### Outline of Work
-
+**Outline of Work:**
 1. Define use cases
   - Write a use case for finding best-fit parameters for a
     high-magnification event.
@@ -357,7 +357,7 @@ size of the source.
 2. Write unit tests
 3. Write methods
 
-#### Outstanding Issues:
+**Outstanding Issues:**
 - Need to identify a test data set/set up some comparisons to existing
   magnifcation calculations.
 - What language should it be written in? Maybe prototype in Python and
@@ -371,24 +371,24 @@ size of the source.
 
 ## Jupyter Binary Fitting
 
-#### Goal
+**Goal:**
 Create a _Jupyter_ notebook using _MulensModel_ that robustly finds
 solutions to binary microlensing events.
 
-#### Notes
+**Notes:**
 - Maybe one for identifying point lenses that need more parameters?
 
 * * *
 
 ## Create a Galaxy Zoo-type project for UKIRT data
 
-#### Lead
+**Lead:**
 TBD
 
-#### Goal
+**Goal:**
 Create a Galaxy Zoo project to classify UKIRT light curves
 
-#### Description
+**Description:**
 The Galaxy Zoo platform uses "citizen scientists" to classify objects
 in large datasets. We could use this platform to create a project to
 classify UKIRT light curves as microlensing/not microlensing,
