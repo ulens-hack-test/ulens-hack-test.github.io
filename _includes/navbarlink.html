@@ -1,4 +1,8 @@
-@{{ include.link[0] }}@{{ include.link[0] == "Level 1" }}@
+{% if "Foobar" contains "bar" %}
+yes
+{% else %}
+no
+{% endif %}
 
 {% capture before %}{{ include.link[1] | split: "://" | first }}{% endcapture %}
 {% capture after %}{{ include.link[1] | split: "://" | last }}{% endcapture %}
